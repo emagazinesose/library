@@ -172,10 +172,12 @@ footer p::selection {
 }
 
 .links {
+    margin-top: 5vh;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    justify-content: space-between;
+    gap:5vw;
+    justify-content: center;
 }
 
 ul a:visited {
@@ -189,7 +191,7 @@ ul a {
 }
 
 .headlink {
-    font-size: 20px;
+    font-size: 25px;
     color: var(--black);
 }
 
@@ -198,7 +200,6 @@ ul a {
     border: 2px dashed var(--primary);
     border-radius: 10px;
     padding: 25px;
-    margin-top: 5vh;
     display: flex;
     flex-direction: column;
     gap: 3vh;
@@ -281,6 +282,13 @@ footer {
 @media (max-width: 375px) {
     .nav-logo p {
         visibility: hidden;
+    }
+}
+
+@media (max-width: 1450px) {
+    .linkcard{
+        text-align:center;
+        width:100%;
     }
 }
 
