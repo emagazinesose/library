@@ -329,10 +329,6 @@ footer {
         margin: 15px 0;
     }
 
-    .nav-link {
-        color: var(--white);
-    }
-
     .hamburger {
         display: block;
         cursor: pointer;
