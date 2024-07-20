@@ -14,3 +14,5 @@ function closeMenu() {
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
 }
+
+window.location.href="https://asosesec11rohinilibrary.netlify.app/"
