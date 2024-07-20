@@ -41,6 +41,12 @@ body {
     font-weight: 700;
 }
 
+.title {
+    font-size: 45px;
+    text-align: center;
+    font-weight: 600;
+}
+
 li {
     list-style: none;
 }
